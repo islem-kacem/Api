@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+
+
+.card {
+  border: 10px solid #bb92ba;
+  border-radius: 0px;
+  background-color: rgba(255, 255, 255, 0.063);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 400px;
+  height: 600px;
+}
+.card .avatar img {
+  border-radius: 100%;
+  border: 3px solid #bb92ba;
+}
+.card .title {
+  font-size: 26px;
+  margin-top: 18px;
+  color: #210120;
+}
+.card .description {
+  font-size: 17px;
+  margin-top: 18px;
+  color: #64707d;
+}
+.card .social ul {
+  margin-top: 22px;
+  list-style-type: none;
+}
+.card .social ul li {
+  display: inline;
+  font-size: 2px;
+  cursor: pointer;
+  color: #bb92ba;
+}
+
+
+
+
